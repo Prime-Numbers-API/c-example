@@ -8,7 +8,7 @@ void get_random_prime() {
     CURL* curl;
     CURLcode res;
 
-    char api_key[4] = "123";
+    char api_key[4] = "YOUR_API_KEY";
     char include_explanations[6] = "true";
     char include_prime_types_list[6] = "true";
     char language[8] = "english";
@@ -37,7 +37,7 @@ void is_this_number_prime() {
     CURL* curl;
     CURLcode res;
 
-    char api_key[4] = "123";
+    char api_key[4] = "YOUR_API_KEY";
     char include_explanations[6] = "true";
     char include_prime_types_list[6] = "true";
     char number[15] = "60309232769";
@@ -63,7 +63,7 @@ void get_all_primes_between_two_numbers() {
     CURL* curl;
     CURLcode res;
 
-    char api_key[4] = "123";
+    char api_key[4] = "YOUR_API_KEY";
     char include_explanations[6] = "false";
     char include_prime_types_list[6] = "false";
     char start[15] = "69";
@@ -92,7 +92,7 @@ void prospect_primes_between_two_numbers() {
     CURL* curl;
     CURLcode res;
 
-    char api_key[4] = "123";
+    char api_key[4] = "YOUR_API_KEY";
     char include_explanations[6] = "false";
     char include_prime_types_list[6] = "false";
     char start[15] = "350";
@@ -119,7 +119,7 @@ void get_isolated_random_prime() {
     CURL* curl;
     CURLcode res;
 
-    char api_key[4] = "123";
+    char api_key[4] = "YOUR_API_KEY";
     char include_explanations[6] = "false";
     char include_prime_types_list[6] = "false";
     char minimum_combined_prime_gap[4] = "250";
